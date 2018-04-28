@@ -80,7 +80,7 @@ net.Receive("FinishedUnbox" , function(len , ply)
 
 	local isGift = ply.unboxing.isGift
 
-	local randomTarget = player.GetAll()[math.random(1,table.Count(player.GetAll()))]
+	local randomTarget = player.GetHumans()[math.random(1,table.Count(player.GetHumans()))]
 
 	if ply.unboxing.currentlyWaiting == true then
 		

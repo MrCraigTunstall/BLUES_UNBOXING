@@ -713,7 +713,9 @@ end
 hook.Add("Think" , "Spin The Items" , spinUpdate)
 
 hook.Add("OnPlayerChat" , "testshit" , function(ply , text)
-
+	if (string.sub(game.GetMap(),0,3)=='ze_') then
+		return
+	end
 	if ply == LocalPlayer() then
 			
 		if string.lower(text) == "!unbox" or string.lower(text) == "/unbox" then

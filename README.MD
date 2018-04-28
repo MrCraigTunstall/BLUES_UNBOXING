@@ -1,4 +1,4 @@
-# Blue's Unboxing
+# Blue's Unboxing (Modified for Zombie Survival)
 
 Youtube Demo:
 
